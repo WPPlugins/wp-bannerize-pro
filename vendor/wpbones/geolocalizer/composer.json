@@ -1,0 +1,36 @@
+{
+  "name": "wpbones/geolocalizer",
+  "version": "0.5.3",
+  "homepage": "https://github.com/wpbones/geolocalizer",
+  "license": "MIT",
+  "type": "library",
+  "description": "Geo provider for WP Bones",
+  "keywords": [
+    "geo",
+    "localization",
+    "countries",
+    "WP Bones"
+  ],
+  "authors": [
+    {
+      "name": "Giovambattista Fazioli",
+      "email": "giovambattista.fazioli@gmail.com",
+      "homepage": "http://undolog.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wpbones/geolocalizer.git"
+  },
+  "support": {
+    "email": "giovambattista.fazioli@gmail.com",
+    "issues": "https://github.com/wpbones/geolocalizer/issues"
+  },
+  "autoload": {
+    "psr-4": {
+      "WPBannerize\\GeoLocalizer\\": "src/"
+    }
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}

@@ -1,0 +1,834 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Bannerize Pro\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-21 17:24+0100\n"
+"PO-Revision-Date: 2017-03-21 17:28+0100\n"
+"Last-Translator: \n"
+"Language-Team: Giovambattista Fazioli <giovambattista.fazioli@gmail.com>\n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_nx:1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.8.12\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: node_modules\n"
+"X-Poedit-SearchPathExcluded-1: vendor\n"
+
+#: config/menus.php:20
+msgid "Analytics Overview"
+msgstr "Panoramica di Analitica"
+
+#: config/menus.php:28
+msgid "Analytics Report"
+msgstr "Relazione Analitica"
+
+#: config/menus.php:35 plugin/Providers/WPBannerizeServiceProvider.php:58
+#: resources/views/cpt/settings.php:6
+msgid "Settings"
+msgstr "Settings"
+
+#: config/menus.php:43 plugin/Providers/WPBannerizeServiceProvider.php:46
+#: plugin/Providers/WPBannerizeServiceProvider.php:62
+#: resources/views/importer/index.php:9
+msgid "Import"
+msgstr "Importa"
+
+#: plugin/Ajax/WPBannerizeAjax.php:215 plugin/Ajax/WPBannerizeAjax.php:250
+msgid "No banner id set"
+msgstr "Nessun banner id impostato"
+
+#: plugin/Ajax/WPBannerizeAjax.php:224 plugin/Ajax/WPBannerizeAjax.php:259
+msgid "No referrer set"
+msgstr "Nessun referente impostato"
+
+#: plugin/CustomPostTypes/WPBannerizeCustomPostType.php:51
+#: plugin/CustomPostTypes/WPBannerizeCustomPostType.php:63
+#: plugin/MetaBoxes/Summary.php:117 plugin/MetaBoxes/Summary.php:151
+msgid "Banners"
+msgstr "\t"
+
+#: plugin/CustomPostTypes/WPBannerizeCustomPostType.php:52
+#: plugin/CustomPostTypes/WPBannerizeCustomPostType.php:54
+#: plugin/CustomPostTypes/WPBannerizeCustomPostType.php:64
+msgid "Banner"
+msgstr ""
+
+#: plugin/CustomPostTypes/WPBannerizeCustomPostType.php:53
+msgid "WP Bannerize"
+msgstr ""
+
+#: plugin/CustomPostTypes/WPBannerizeCustomPostType.php:55
+msgid "Add New"
+msgstr "Aggiungi Nuovo"
+
+#: plugin/CustomPostTypes/WPBannerizeCustomPostType.php:56
+msgid "Add New Banner"
+msgstr "Aggiungo Nuovo banner"
+
+#: plugin/CustomPostTypes/WPBannerizeCustomPostType.php:57
+msgid "Edit Banner"
+msgstr "Modifica Banner"
+
+#: plugin/CustomPostTypes/WPBannerizeCustomPostType.php:58
+msgid "New Banner"
+msgstr "Nuovo Banner"
+
+#: plugin/CustomPostTypes/WPBannerizeCustomPostType.php:59
+msgid "View Banner"
+msgstr "Visualizza Banner"
+
+#: plugin/CustomPostTypes/WPBannerizeCustomPostType.php:60
+msgid "Search Banner"
+msgstr "Cerca Banner"
+
+#: plugin/CustomPostTypes/WPBannerizeCustomPostType.php:61
+msgid "No Banner found"
+msgstr "Nessun Banner trovato"
+
+#: plugin/CustomPostTypes/WPBannerizeCustomPostType.php:62
+msgid "No Banners found in trash"
+msgstr "Nessun Banner trovato nel cestino"
+
+#: plugin/CustomPostTypes/WPBannerizeCustomPostType.php:208
+msgid "Preview"
+msgstr "Anteprima"
+
+#: plugin/CustomPostTypes/WPBannerizeCustomPostType.php:221
+#: plugin/CustomPostTypes/WPBannerizeCustomPostType.php:234
+msgid "Overview"
+msgstr "Panoramica"
+
+#: plugin/CustomPostTypes/WPBannerizeCustomPostType.php:267
+msgid "Enter Banner name"
+msgstr "Inserisci un nome per il Banner"
+
+#: plugin/CustomPostTypes/WPBannerizeCustomPostType.php:366
+msgid "Thumbnail"
+msgstr "Miniatura"
+
+#: plugin/CustomPostTypes/WPBannerizeCustomPostType.php:368
+#: plugin/Models/WPBannerizeImpressions.php:138
+#: resources/views/widgets/form.php:60
+msgid "Impressions"
+msgstr "Impressioni"
+
+#: plugin/CustomPostTypes/WPBannerizeCustomPostType.php:369
+#: plugin/Models/WPBannerizeClicks.php:137 resources/views/widgets/form.php:61
+msgid "Clicks"
+msgstr "Clicks"
+
+#: plugin/CustomPostTypes/WPBannerizeCustomPostType.php:370
+#: plugin/Models/WPBannerizeCTR.php:101 resources/views/widgets/form.php:62
+msgid "CTR"
+msgstr ""
+
+#: plugin/CustomPostTypes/WPBannerizeCustomPostType.php:509
+msgid "Show All"
+msgstr "Mostra Tutti"
+
+#: plugin/Http/Controllers/WPBannerizeAnalyticsController.php:81
+msgid "Custom"
+msgstr "Personalizza"
+
+#: plugin/Http/Controllers/WPBannerizeAnalyticsController.php:88
+msgid "Today"
+msgstr "Oggi"
+
+#: plugin/Http/Controllers/WPBannerizeAnalyticsController.php:94
+msgid "Yesterday"
+msgstr "Ieri"
+
+#: plugin/Http/Controllers/WPBannerizeAnalyticsController.php:100
+msgid "Last week"
+msgstr "Scorsa settimana"
+
+#: plugin/Http/Controllers/WPBannerizeAnalyticsController.php:106
+msgid "Last month"
+msgstr "Ultimo Mese"
+
+#: plugin/Http/Controllers/WPBannerizeAnalyticsController.php:112
+msgid "Last year"
+msgstr "Ultimo Anno"
+
+#: plugin/Http/Controllers/WPBannerizeAnalyticsController.php:120
+msgid "All"
+msgstr "Tutti"
+
+#: plugin/Http/Controllers/WPBannerizeImporterController.php:308
+msgid "This term has been import from WP Bannerize Group"
+msgstr "Questo termine è stato importato da WP Bannerize Group"
+
+#: plugin/Http/Controllers/WPBannerizeSettingsController.php:36
+msgid "Settings updated!"
+msgstr "Impostazioni aggiornate!"
+
+#: plugin/Http/Controllers/WPBannerizeSettingsController.php:40
+msgid "Action not allowed!"
+msgstr "Azione non permessa!"
+
+#: plugin/MetaBoxes/CTR.php:13
+msgid "CTR (last month)"
+msgstr "CTR (ultimo mese)"
+
+#: plugin/MetaBoxes/Clicks.php:13
+msgid "Clicks (last month)"
+msgstr "Clicks (ultimo mese)"
+
+#: plugin/MetaBoxes/ClicksBanners.php:13
+msgid "Most Clicked Banners (last month)"
+msgstr "Banner più cliccati (ultimo mese)"
+
+#: plugin/MetaBoxes/Impressions.php:13
+msgid "Impressions (last month)"
+msgstr "Impressioni (ultimo mese)"
+
+#: plugin/MetaBoxes/ImpressionsBanners.php:13
+msgid "Most Viewed Banners (last month)"
+msgstr "Banner più visti (ultimo mese)"
+
+#: plugin/MetaBoxes/Summary.php:19
+msgid "All Time Summary"
+msgstr "Sommario generale"
+
+#: plugin/MetaBoxes/Summary.php:30
+msgid "Total Banners"
+msgstr "Banner totali"
+
+#: plugin/MetaBoxes/Summary.php:43 plugin/MetaBoxes/Summary.php:61
+#: plugin/MetaBoxes/Summary.php:74 plugin/Models/WPBannerizeCTR.php:101
+#: plugin/Models/WPBannerizeClicks.php:137
+#: plugin/Models/WPBannerizeImpressions.php:138
+#: resources/views/analytics/clicks-banners.php:18
+#: resources/views/analytics/clicks.php:18
+#: resources/views/analytics/impressions-banners.php:18
+#: resources/views/analytics/impressions.php:18
+msgid "Unique"
+msgstr "Unici"
+
+#: plugin/MetaBoxes/Summary.php:47
+msgid "All time Impressions"
+msgstr "Impressioni"
+
+#: plugin/MetaBoxes/Summary.php:65
+msgid "All time Clicks"
+msgstr "Clicks"
+
+#: plugin/MetaBoxes/Summary.php:77
+msgid "All time CTR"
+msgstr "CTR"
+
+#: plugin/MetaBoxes/Summary.php:87
+msgid "Categories with Banners"
+msgstr "Categorie con banner"
+
+#: plugin/MetaBoxes/Summary.php:96
+msgid "Total Categories"
+msgstr "Totale categorie"
+
+#: plugin/MetaBoxes/Summary.php:145 resources/views/cpt/bannertype.php:16
+#: resources/views/importer/index.php:108
+msgid "Local"
+msgstr "Locale"
+
+#: plugin/MetaBoxes/Summary.php:146 resources/views/cpt/bannertype.php:17
+#: resources/views/importer/index.php:119
+msgid "Remote"
+msgstr "Remoto"
+
+#: plugin/MetaBoxes/Summary.php:147 resources/views/cpt/bannertype.php:18
+msgid "Text"
+msgstr "Testo"
+
+#: plugin/Providers/WPBannerizeServiceProvider.php:34
+msgid "Click Here"
+msgstr "Premi qui"
+
+#: plugin/Providers/WPBannerizeServiceProvider.php:39
+msgid ""
+"You still got the previous version of WP Bannerize database table! Please "
+msgstr ""
+
+#: plugin/Providers/WPBannerizeServiceProvider.php:51
+msgid ""
+"You still have to complete the import of the previous version of database "
+"table! Please, "
+msgstr ""
+
+#: resources/views/analytics/clicks-banners.php:9
+#: resources/views/analytics/clicks.php:9
+#: resources/views/analytics/impressions-banners.php:9
+#: resources/views/analytics/impressions.php:9
+msgid "Total"
+msgstr "Totale"
+
+#: resources/views/analytics/clicks-banners.php:12
+#: resources/views/analytics/clicks-banners.php:21
+#: resources/views/analytics/clicks.php:12
+#: resources/views/analytics/clicks.php:21 resources/views/analytics/ctr.php:9
+#: resources/views/analytics/impressions-banners.php:12
+#: resources/views/analytics/impressions-banners.php:21
+#: resources/views/analytics/impressions.php:12
+#: resources/views/analytics/impressions.php:21
+msgid "Average"
+msgstr "Media"
+
+#: resources/views/analytics/ctr.php:12
+msgid "Average Unique"
+msgstr "Media unici"
+
+#: resources/views/analytics/index.php:19
+msgid "WP Bannerize Analytics Overview"
+msgstr ""
+
+#: resources/views/analytics/report-banners.php:7
+msgid "No Banner impressions found for selected filters"
+msgstr ""
+
+#: resources/views/analytics/report.php:5
+msgid "WP Bannerize Analytics Report"
+msgstr ""
+
+#: resources/views/analytics/report.php:9 resources/views/widgets/form.php:92
+msgid "Filters"
+msgstr "Filtri"
+
+#: resources/views/analytics/report.php:13
+msgid "From date"
+msgstr "Dalla data"
+
+#: resources/views/analytics/report.php:17
+msgid "to date"
+msgstr "alla data"
+
+#: resources/views/analytics/report.php:23
+msgid "Set date"
+msgstr "Imposta data"
+
+#: resources/views/analytics/report.php:27
+msgid "Date Preset"
+msgstr "Date Preselezionate"
+
+#: resources/views/analytics/report.php:42
+msgid "Categories"
+msgstr "Categorie"
+
+#: resources/views/analytics/report.php:70
+msgid "Impressions Chart Reports"
+msgstr "Grafico delle Impressioni"
+
+#: resources/views/analytics/report.php:76
+#: resources/views/analytics/report.php:129
+#: resources/views/analytics/report.php:182
+msgid "Accuracy"
+msgstr "Accuratezza"
+
+#: resources/views/analytics/report.php:81
+#: resources/views/analytics/report.php:134
+#: resources/views/analytics/report.php:187
+msgid "Years"
+msgstr "Anni"
+
+#: resources/views/analytics/report.php:82
+#: resources/views/analytics/report.php:135
+#: resources/views/analytics/report.php:188
+msgid "Months"
+msgstr "MEsi"
+
+#: resources/views/analytics/report.php:84
+#: resources/views/analytics/report.php:137
+#: resources/views/analytics/report.php:190
+msgid "Days"
+msgstr "Giorni"
+
+#: resources/views/analytics/report.php:85
+#: resources/views/analytics/report.php:138
+#: resources/views/analytics/report.php:191
+msgid "Minutes"
+msgstr "Minuti"
+
+#: resources/views/analytics/report.php:86
+#: resources/views/analytics/report.php:139
+#: resources/views/analytics/report.php:192
+msgid "Seconds"
+msgstr "Secondi"
+
+#: resources/views/analytics/report.php:91
+#: resources/views/analytics/report.php:144
+#: resources/views/analytics/report.php:197
+msgid "Chart Type"
+msgstr "Tipo di grafico"
+
+#: resources/views/analytics/report.php:96
+#: resources/views/analytics/report.php:149
+#: resources/views/analytics/report.php:202
+msgid "Line"
+msgstr "Linea"
+
+#: resources/views/analytics/report.php:97
+#: resources/views/analytics/report.php:150
+#: resources/views/analytics/report.php:203
+msgid "Bar"
+msgstr "Istogrammi"
+
+#: resources/views/analytics/report.php:98
+#: resources/views/analytics/report.php:151
+#: resources/views/analytics/report.php:204
+msgid "Bar Stacked"
+msgstr "Istrogrammi sovrapposti"
+
+#: resources/views/analytics/report.php:99
+#: resources/views/analytics/report.php:152
+#: resources/views/analytics/report.php:205
+msgid "Area"
+msgstr "Area"
+
+#: resources/views/analytics/report.php:105
+#: resources/views/analytics/report.php:158
+#: resources/views/analytics/report.php:211
+msgid "Draw Chart"
+msgstr "Disegna grafico"
+
+#: resources/views/analytics/report.php:113
+#: resources/views/analytics/report.php:166
+#: resources/views/analytics/report.php:219
+msgid "Click on <strong>Draw Chart</strong> button"
+msgstr "Premi su bottone <strong>Disegna Grafico</strong>"
+
+#: resources/views/analytics/report.php:123
+msgid "Clicks Chart Reports"
+msgstr "Rapporto dei click"
+
+#: resources/views/analytics/report.php:176
+msgid "CTR Chart Reports"
+msgstr "Rapporto CTR"
+
+#: resources/views/cpt/analytics.php:5 resources/views/settings/index.php:18
+msgid "Analytics"
+msgstr "Analisi"
+
+#: resources/views/cpt/analytics.php:8
+msgid "Of course, you can turn off the analytics for a single banner"
+msgstr ""
+
+#: resources/views/cpt/analytics.php:15 resources/views/settings/index.php:29
+msgid "Enable Impressions"
+msgstr ""
+
+#: resources/views/cpt/analytics.php:22 resources/views/settings/index.php:37
+msgid "Enable Clicks"
+msgstr ""
+
+#: resources/views/cpt/bannertype.php:1
+msgid "Choose a Banner type"
+msgstr "Scegli un tipo di Banner"
+
+#: resources/views/cpt/bannertype.php:6
+msgid "Select the type of Banner"
+msgstr "Seleziona un tipo di Banner"
+
+#: resources/views/cpt/bannertype.php:39
+msgid ""
+"From this panel you can upload a local media into your WordPress "
+"installation."
+msgstr ""
+
+#: resources/views/cpt/bannertype.php:47 resources/views/cpt/bannertype.php:50
+msgid "Choose a file"
+msgstr ""
+
+#: resources/views/cpt/bannertype.php:48
+msgid "Select"
+msgstr ""
+
+#: resources/views/cpt/bannertype.php:59
+msgid "Use this panel to insert a remote URL for your media."
+msgstr ""
+
+#: resources/views/cpt/bannertype.php:64
+msgid "URL"
+msgstr ""
+
+#: resources/views/cpt/bannertype.php:81
+msgid ""
+"This is an amazing feature! You can create your own banner with this free "
+"rich text editor."
+msgstr ""
+
+#: resources/views/cpt/preview-image.php:16
+msgid "Background Color Preview"
+msgstr ""
+
+#: resources/views/cpt/preview-image.php:31
+#: resources/views/cpt/preview-txt.php:28
+msgid "Type"
+msgstr ""
+
+#: resources/views/cpt/preview-image.php:32
+#: resources/views/cpt/preview-txt.php:29 resources/views/cpt/size.php:4
+msgid "Size"
+msgstr "Dimensione"
+
+#: resources/views/cpt/preview-not-available.php:4
+msgid "Preview not available"
+msgstr "Anteprima non disponibile"
+
+#: resources/views/cpt/preview-not-available.php:7
+msgid "Update the banner content"
+msgstr "Aggiorna il contenuti del Banner"
+
+#: resources/views/cpt/rules.php:4
+msgid "Rules"
+msgstr "Regole"
+
+#: resources/views/cpt/rules.php:8
+msgid ""
+"This banner will be visible on for the folowwing date range. Of course, you "
+"can left any fields blank for no date range."
+msgstr ""
+
+#: resources/views/cpt/rules.php:11
+msgid "Date from"
+msgstr "Dalla data"
+
+#: resources/views/cpt/rules.php:16
+msgid "Date to"
+msgstr "Alla data"
+
+#: resources/views/cpt/settings.php:9
+msgid "Here you can set the link and other attributes"
+msgstr "Qui tu puoi impostare il link e altri attributi"
+
+#: resources/views/cpt/settings.php:14
+msgid "Link"
+msgstr ""
+
+#: resources/views/cpt/settings.php:16
+msgid "This is the URL that allows you to link the banner"
+msgstr "Questo è l’URL del banner"
+
+#: resources/views/cpt/settings.php:17
+msgid "http://"
+msgstr ""
+
+#: resources/views/cpt/settings.php:23
+msgid "Target"
+msgstr ""
+
+#: resources/views/cpt/settings.php:26
+msgid "None"
+msgstr "Nessuno"
+
+#: resources/views/cpt/settings.php:27
+msgid "_blank"
+msgstr ""
+
+#: resources/views/cpt/settings.php:28
+msgid "_parent"
+msgstr ""
+
+#: resources/views/cpt/settings.php:29
+msgid "_self"
+msgstr ""
+
+#: resources/views/cpt/settings.php:30
+msgid "_top"
+msgstr ""
+
+#: resources/views/cpt/settings.php:50
+msgid "Add \"nofollow\""
+msgstr "Aggiunge “nofollow”"
+
+#: resources/views/cpt/settings.php:58
+msgid ""
+"Use this field as alternative alt/title description for banner. If you leave "
+"this field blank the title of banner will be use instead."
+msgstr ""
+
+#: resources/views/cpt/size.php:10
+msgid ""
+"The function <code>getimagesize()</code> is not available. PHP GD Library "
+"are not installed. Please contact your administrator site to fix it."
+msgstr ""
+
+#: resources/views/cpt/size.php:15
+msgid ""
+"You now can enter your custom width and height with measure units. For "
+"example you can use <code>100px</code> or <code>100%</code> or <code>auto</"
+"code>. Leave blank to auto get the right size. Set a unit of measurement. If "
+"blank, we'll set pixels."
+msgstr ""
+
+#: resources/views/cpt/size.php:18
+msgid "Custom width"
+msgstr "Larghezza personalizzata"
+
+#: resources/views/cpt/size.php:23 resources/views/cpt/size.php:33
+msgid "eg: 100%"
+msgstr ""
+
+#: resources/views/cpt/size.php:28
+msgid "Custom height"
+msgstr "Altezza personalizzata"
+
+#: resources/views/importer/dropped.php:5 resources/views/importer/index.php:5
+#: resources/views/importer/successfully.php:5
+msgid "WP Bannerize Importer"
+msgstr ""
+
+#: resources/views/importer/dropped.php:8
+msgid "Previous table dropped!"
+msgstr "La tabella precedente è stata eliminata!"
+
+#: resources/views/importer/dropped.php:13
+#: resources/views/importer/successfully.php:13
+msgid "Manage your new banners"
+msgstr "Gestisci i tuoi nuovi Banner"
+
+#: resources/views/importer/index.php:12
+msgid ""
+"A previous release of Bannerize table has been found. You can import your "
+"previous banners by following the instruction below."
+msgstr ""
+
+#: resources/views/importer/index.php:20
+msgid "Table name"
+msgstr "Nome della tabella"
+
+#: resources/views/importer/index.php:29
+msgid "Total records"
+msgstr "Record totali"
+
+#: resources/views/importer/index.php:38
+msgid "Total enabled"
+msgstr "Totale abilitati"
+
+#: resources/views/importer/index.php:47
+msgid "Total disabled"
+msgstr "Totale disabilitati"
+
+#: resources/views/importer/index.php:56
+msgid "Total trash"
+msgstr "Totale nel cestino"
+
+#: resources/views/importer/index.php:73
+msgid "Select at least one group of Banner below that you would like to import"
+msgstr "Seleziona almeno un gruppo di banner qui sotto che desideri importare"
+
+#: resources/views/importer/index.php:98
+msgid "Select at least one type of Banner below that you would like to import"
+msgstr "Seleziona almeno un tipo di banner che desideri importare"
+
+#: resources/views/importer/index.php:130
+msgid "text"
+msgstr ""
+
+#: resources/views/importer/index.php:137
+msgid "Optionals"
+msgstr "Opzionali"
+
+#: resources/views/importer/index.php:147
+msgid "Import Trash"
+msgstr ""
+
+#: resources/views/importer/index.php:158
+msgid "Import Disabled"
+msgstr ""
+
+#: resources/views/importer/index.php:169
+msgid "Drop previous bannerize table after import"
+msgstr ""
+
+#: resources/views/importer/index.php:179
+#: resources/views/importer/index.php:200
+msgid ""
+"Warning! Are you sure to delete permately the previous table of Bannerize?"
+msgstr ""
+
+#: resources/views/importer/index.php:181
+msgid "I don't want to import previous banners! Drop previous table!"
+msgstr ""
+
+#: resources/views/importer/index.php:187
+msgid "Start import"
+msgstr ""
+
+#: resources/views/importer/index.php:194
+msgid ""
+"The previous WP Bannerize database table is empty! Of course, you can drop "
+"it by click the button below."
+msgstr ""
+
+#: resources/views/importer/index.php:202
+msgid "Drop previous table!"
+msgstr ""
+
+#: resources/views/importer/successfully.php:8
+msgid "Previous table imported successfully!"
+msgstr ""
+
+#: resources/views/settings/index.php:7
+msgid "WP Bannerize Settings"
+msgstr ""
+
+#: resources/views/settings/index.php:49 resources/views/widgets/form.php:21
+msgid "Layout"
+msgstr ""
+
+#: resources/views/settings/index.php:52
+msgid "Here you can set the banner margin. The values are in pixel."
+msgstr ""
+
+#: resources/views/widgets/form.php:5
+msgid "Display"
+msgstr ""
+
+#: resources/views/widgets/form.php:9
+msgid "Title"
+msgstr ""
+
+#: resources/views/widgets/form.php:12
+msgid "eg: title on top"
+msgstr ""
+
+#: resources/views/widgets/form.php:24
+msgid "Vertical"
+msgstr ""
+
+#: resources/views/widgets/form.php:25
+msgid "Horizontal"
+msgstr ""
+
+#: resources/views/widgets/form.php:32 resources/views/widgets/form.php:39
+msgid "Maximum number of Banners to display: use -1 to display all banners"
+msgstr ""
+
+#: resources/views/widgets/form.php:37
+msgid "Numbers"
+msgstr ""
+
+#: resources/views/widgets/form.php:50
+msgid ""
+"Warning! The \"Order\" param will ignored when RANDOM \"Order by\" is "
+"selected."
+msgstr ""
+
+#: resources/views/widgets/form.php:55
+msgid "Order By"
+msgstr ""
+
+#: resources/views/widgets/form.php:58
+msgid "Manual"
+msgstr ""
+
+#: resources/views/widgets/form.php:59
+msgid "Random"
+msgstr ""
+
+#: resources/views/widgets/form.php:67
+msgid "Order"
+msgstr ""
+
+#: resources/views/widgets/form.php:70
+msgid "Descending"
+msgstr ""
+
+#: resources/views/widgets/form.php:71
+msgid "Ascending"
+msgstr ""
+
+#: resources/views/widgets/form.php:78
+msgid ""
+"Switch on to give some chances to the banners to be showed when use "
+"Impressions, Click or CTR order by. Switch off to absolute order."
+msgstr ""
+
+#: resources/views/widgets/form.php:83
+msgid "Rank"
+msgstr ""
+
+#: resources/views/widgets/form.php:103
+msgid "Geo Localization"
+msgstr ""
+
+#: resources/views/widgets/form.php:108
+msgid "Display selected"
+msgstr ""
+
+#: resources/views/widgets/form.php:141
+msgid "Selected countries:"
+msgstr ""
+
+#: resources/views/widgets/form.php:145
+msgid "Deselect all"
+msgstr ""
+
+#: resources/views/widgets/form.php:153
+msgid "Bannerize Categories"
+msgstr ""
+
+#: resources/views/widgets/form.php:186
+msgid "Post Categories"
+msgstr ""
+
+#: resources/views/widgets/form.php:216
+msgid "User Roles"
+msgstr ""
+
+#~ msgid "Enable impressions"
+#~ msgstr "Abilita Impressioni"
+
+#~ msgid "Enable CTR"
+#~ msgstr "Abilita CTR"
+
+#~ msgid "You can localize me"
+#~ msgstr "Mi puoi localizzare"
+
+#~ msgid "Description"
+#~ msgstr "Descrizione"
+
+#~ msgid "Placeholders"
+#~ msgstr "Segnaposti"
+
+#~ msgid "Environment"
+#~ msgstr "Ambienti"
+
+#~ msgid "Places"
+#~ msgstr "Posti"
+
+#~ msgid "Status"
+#~ msgstr "Stato"
+
+#~ msgid "Name"
+#~ msgstr "Nome"
+
+#~ msgid "Publish"
+#~ msgstr "Pubblica"
+
+#~ msgid "Trash"
+#~ msgstr "Cestino"
+
+#~ msgid "Edit"
+#~ msgstr "Modifica"
+
+#~ msgid "Restore"
+#~ msgstr "Repristina"
+
+#~ msgid "Delete"
+#~ msgstr "Elimina"
+
+#~ msgid "Icon"
+#~ msgstr "Icona"
+
+#~ msgid "Move to Trash"
+#~ msgstr "Sposta nel cestino"
+
+#~ msgid "Add"
+#~ msgstr "Aggiungi"
+
+#~ msgid "Update"
+#~ msgstr "Aggiorna"
